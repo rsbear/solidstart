@@ -8,6 +8,7 @@ export default defineConfig({
       ssr: false,
       adapter: cloudflare({
         sourceMap: true,
+        minify: true,
       }),
     }),
   ],
